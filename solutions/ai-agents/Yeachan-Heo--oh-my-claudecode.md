@@ -45,7 +45,16 @@ Multi-agent orchestration layer for Claude Code. Coordinates up to 32 specialize
 - **Estimated cost:** Free (you pay for Claude API — but it optimizes token spend)
 
 ## Security Assessment
-- **Scorecard:** TODO
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** Yes
+- **CI/CD:** Yes (6 workflows)
+- **Signed releases:** No (3 releases, no assets)
+- **Contributors:** ~64
+- **Last commit:** 2026-03-27
+- **Open issues:** 26
+- **Code of Conduct:** None
+- **Dependency pinning:** Yes (package-lock.json)
 - **Notes:** Spawns real tmux processes — review what agents can access on your system
 
 ## How Tmux Orchestration Works

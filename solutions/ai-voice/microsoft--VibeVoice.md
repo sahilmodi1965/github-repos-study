@@ -49,8 +49,17 @@ Three open-source voice AI models from Microsoft Research: TTS (1.5B params, 90-
 - **Estimated cost:** Self-hosted GPU server ($1-3/hr on cloud) vs ElevenLabs $22/mo. Break-even depends on usage volume.
 
 ## Security Assessment
-- **Scorecard:** TODO
-- **Notes:** Voice synthesis raises ethical concerns (voice cloning, deepfakes). Microsoft likely has responsible AI guidelines. Consider access controls on who can use the TTS service.
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** Yes (org-level via microsoft/.github)
+- **Branch protection:** No
+- **CI/CD:** None (0 workflows)
+- **Signed releases:** No (0 releases)
+- **Contributors:** ~11
+- **Last commit:** 2026-03-27
+- **Open issues:** 107
+- **Code of Conduct:** Yes (org-level via microsoft/.github)
+- **Dependency pinning:** No lockfile (pyproject.toml only)
+- **Notes:** Research project, not a production service. Voice synthesis raises ethical concerns (voice cloning, deepfakes). Was pulled once over misuse concerns.
 
 ## Quality Benchmarks
 - **PESQ:** 3.068 (clean) / 2.848 (other)

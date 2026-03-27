@@ -62,6 +62,17 @@ Vision-language model for OCR that converts images and PDFs into structured outp
 - **Tested categories:** Finance, Healthcare, Invoices, Legal, Research Papers, Textbooks, Forms
 - **Weakness:** Outperformed by dot-ocr in layout mode for some use cases
 
+## Security Assessment
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** No
+- **CI/CD:** Yes (2 workflows)
+- **Signed releases:** No
+- **Contributors:** ~3 (very small team)
+- **Last commit:** 2026-03-18
+- **Open issues:** 32
+- **Dependency pinning:** Yes (uv.lock)
+
 ## License Warning
 - **Code:** Apache 2.0
 - **Model weights:** Modified OpenRAIL-M — free for research, personal use, and startups under $2M funding/revenue. **Cannot be used competitively with Datalab's API. Commercial license required for larger organizations.** This is a recurring complaint in the community.

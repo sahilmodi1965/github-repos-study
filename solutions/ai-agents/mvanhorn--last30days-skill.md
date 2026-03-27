@@ -57,6 +57,19 @@ Three modes: reddit-only, x-only, or both (full cross-validation).
 - **Estimated cost:** Free skill + a few cents to low single-digit dollars per query depending on config
 - **Quality:** Blinded evaluation scored **4.38/5.0** (vs 3.73 for v1) across 5 test topics
 
+## Security Assessment
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** No
+- **CI/CD:** None (0 workflows)
+- **Signed releases:** No
+- **Contributors:** ~8
+- **Last commit:** 2026-03-24
+- **Open issues:** 48
+- **Code of Conduct:** None
+- **Dependency pinning:** No lockfile
+- **Security posture: LOW** — no CI, no branch protection, no lockfile. Acceptable for a skill project but review code before trusting with API keys.
+
 ## Limitations & Gotchas
 - Requires multiple API keys for full coverage
 - Research takes 2-8 minutes (not instant)

@@ -44,6 +44,17 @@ Real-time face-swapping tool: one source photo → live webcam feed or video wit
 - **External deps:** InsightFace models, GFPGAN models
 - **Estimated cost:** Free (runs locally)
 
+## Security Assessment
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** No
+- **CI/CD:** None (0 workflows)
+- **Signed releases:** No (tag-only releases)
+- **Contributors:** ~55
+- **Last commit:** 2026-03-27
+- **Open issues:** 101
+- **Dependency pinning:** Partial (mostly pinned with == but some unpinned)
+
 ## GPU Performance
 | Hardware | Status | Notes |
 |----------|--------|-------|

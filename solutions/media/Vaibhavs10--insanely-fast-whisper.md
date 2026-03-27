@@ -44,6 +44,17 @@ CLI tool that makes OpenAI Whisper transcription 19x faster on local GPUs. Trans
 - **External deps:** HuggingFace account for model download
 - **Estimated cost:** Free (runs locally)
 
+## Security Assessment
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** No
+- **CI/CD:** None (0 workflows)
+- **Signed releases:** No (0 releases)
+- **Contributors:** ~20
+- **Last commit:** 2025-10-25 (5+ months stale — may be feature-complete or abandoned)
+- **Open issues:** 112
+- **Dependency pinning:** Yes (pdm.lock)
+
 ## Real Benchmarks by Hardware
 | Hardware | Model | Audio | Time | Speed |
 |----------|-------|-------|------|-------|

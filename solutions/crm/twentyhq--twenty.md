@@ -57,6 +57,19 @@ Open-source CRM built as a modern alternative to Salesforce. Provides contact/co
 - Users want quotes/invoicing and document generation — acknowledged gaps vs Freshsales
 - **vs Attio:** Twenty is open-source and self-hostable but earlier-stage. Attio is AI-native with more mature automation but closed-source and relies on Zapier (extra cost)
 
+## Security Assessment
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** Yes (.github/SECURITY.md) — BEST among all 12 repos
+- **Branch protection:** Yes
+- **CI/CD:** Yes (30 workflows — strong)
+- **Signed releases:** No, but commits are GPG-signed
+- **Contributors:** ~460 (largest community)
+- **Last commit:** 2026-03-27
+- **Open issues:** 107
+- **Code of Conduct:** Yes
+- **Dependency pinning:** Yes (yarn.lock)
+- **Security posture: HIGHEST of all 12 profiled repos**
+
 ## Limitations & Gotchas
 - AGPL-3.0 license — copyleft implications if you modify and distribute
 - Younger than Salesforce — fewer integrations and less battle-tested at enterprise scale

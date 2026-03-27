@@ -56,13 +56,20 @@ Self-hosted AI chat platform that connects to 48+ knowledge sources (Slack, Goog
 - **Estimated cost:** Self-hosted on a $40-80/mo VPS + LLM API costs. Cloud version: $20/user/mo.
 
 ## Security Assessment
-- **Scorecard:** TODO
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None (surprising for a YC company handling enterprise data)
+- **Branch protection:** Yes
+- **CI/CD:** Yes (32 workflows — strong)
+- **Signed releases:** No (binary assets but no signatures)
+- **Contributors:** ~172
+- **Last commit:** 2026-03-27
+- **Open issues:** 296
+- **Code of Conduct:** None
+- **Dependency pinning:** Yes (uv.lock + package-lock.json)
+- **License:** MIT + Onyx Enterprise (dual)
 - **Known CVEs:** Permission sync bugs found and patched (PR #4364, #4495)
-- **Signed releases:** Standard Docker images
-- **Branch protection:** Yes (active team, Y Combinator W24)
-- **Dependency pinning:** Standard Python/Node lockfiles
-- **SBOM available:** Not published
-- **Notes:** Permission sync (who sees what) is ENTERPRISE-ONLY. On free tier, all indexed content is visible to all users. This is the biggest security consideration.
+- **SBOM:** Not published
+- **Critical note:** Permission sync (who sees what) is ENTERPRISE-ONLY. On free tier, all indexed content is visible to all users.
 
 ## Latest Release & Changes
 - **v3.0.5** (Mar 25, 2026) — completed Vespa-to-OpenSearch migration (FOSS Elasticsearch fork, smaller memory, equal/better search)

@@ -47,6 +47,19 @@ Autonomous scientific research system that generates hypotheses, designs and run
 - **External deps:** LLM API keys, compute for experiments
 - **Estimated cost:** $20-30 per research run (LLM API costs)
 
+## Security Assessment
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** No
+- **CI/CD:** None (0 workflows)
+- **Signed releases:** No (0 releases)
+- **Contributors:** ~8
+- **Last commit:** 2025-12-19 (3+ months stale)
+- **Open issues:** 50
+- **Dependency pinning:** No (unpinned requirements.txt)
+- **License:** Custom (AI Scientist Source Code License v1.0) — NOT OSI-approved
+- **Security posture: LOW**
+
 ## Cost Per Run
 | Phase | Cost |
 |-------|------|

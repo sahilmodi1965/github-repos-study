@@ -45,13 +45,17 @@ An agentic skills framework that forces AI coding agents through a disciplined e
 - **Estimated cost:** Free (you pay for the underlying LLM API calls)
 
 ## Security Assessment
-- **Scorecard:** TODO
-- **Known CVEs:** None reported
-- **Signed releases:** N/A (skill files, not compiled software)
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
 - **Branch protection:** Yes
-- **Dependency pinning:** N/A
-- **SBOM available:** N/A
-- **Notes:** Minimal attack surface — it's structured prompts, not executable code. The main risk is prompt injection if skills are modified by untrusted sources.
+- **CI/CD:** None (0 workflows)
+- **Signed releases:** No (3 releases, no signatures)
+- **Contributors:** ~26
+- **Last commit:** 2026-03-25
+- **Open issues:** 179
+- **Code of Conduct:** Yes (Contributor Covenant)
+- **Dependency pinning:** No lockfile at root
+- **Notes:** Minimal attack surface — structured prompts, not executable code. Main risk is prompt injection if skills are modified by untrusted sources. Low security overhead is acceptable for this type of project.
 
 ## Community Sentiment
 - **Positive:** "took my Claude Code experience from mostly frustrating to nearly-magical" (HN, Feb 2026)

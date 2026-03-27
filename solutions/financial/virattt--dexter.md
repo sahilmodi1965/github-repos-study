@@ -49,8 +49,17 @@ Autonomous AI agent for deep financial research. Takes complex questions ("find 
 - **Estimated cost:** Free tool + API costs. Financial Datasets API has free tier. LLM costs vary.
 
 ## Security Assessment
-- **Scorecard:** TODO
-- **Notes:** Handles financial data — ensure API keys are secured. Self-validation loop helps with accuracy but is not a substitute for professional financial advice.
+- **Scorecard:** N/A (not in OpenSSF DB)
+- **Security policy:** None
+- **Branch protection:** No
+- **CI/CD:** Yes (2 workflows)
+- **Signed releases:** No (3 releases, no assets)
+- **Contributors:** ~17
+- **Last commit:** 2026-03-26
+- **Open issues:** 62
+- **Code of Conduct:** None
+- **Dependency pinning:** Yes (package-lock.json + bun.lock)
+- **Notes:** Handles financial data — ensure API keys are secured. No branch protection is a concern for a financial tool.
 
 ## Community Sentiment
 - **Low independent validation:** Two HN submissions (Dec 2025, Feb 2026) each got 1 point and 0 comments
