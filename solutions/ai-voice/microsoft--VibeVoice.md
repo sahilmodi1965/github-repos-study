@@ -3,10 +3,10 @@ name: "VibeVoice"
 repo: "microsoft/VibeVoice"
 url: "https://github.com/microsoft/VibeVoice"
 category: "ai-voice"
-stars: 24625
+stars: 32713
 license: "MIT"
 language: "Python"
-last_profiled: "2026-03-28"
+last_profiled: "2026-03-31"
 production_ready: true
 security_score: "N/A — not in OpenSSF Scorecard DB"
 deploy_complexity: "complex"

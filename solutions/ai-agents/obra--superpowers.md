@@ -3,10 +3,10 @@ name: "Superpowers"
 repo: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
 category: "ai-agents"
-stars: 118339
+stars: 127000
 license: "MIT"
 language: "Shell"
-last_profiled: "2026-03-28"
+last_profiled: "2026-03-31"
 production_ready: true
 security_score: "N/A — not in OpenSSF Scorecard DB (skill files, not compiled software)"
 deploy_complexity: "trivial"
