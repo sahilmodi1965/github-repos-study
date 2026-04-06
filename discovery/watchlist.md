@@ -16,7 +16,6 @@ Track repos that look interesting but haven't been fully evaluated yet.
 | ruvnet/ruflo | ai-agents | ~2K | Agent orchestration platform for Claude | 2026-03-28 |
 | alirezarezvani/claude-skills | ai-agents | ~3K | Skills & plugins for multiple coding agents | 2026-03-28 |
 | onlook-dev/onlook | frontend-tools | ~21.6K | Visual-first, AI-powered React design editor ("Cursor for Designers") — real TailwindCSS code | 2026-03-31 |
-| NousResearch/hermes-agent | ai-agents | ~19.9K | General-purpose AI agent framework from NousResearch | 2026-03-31 |
 | ollama/ollama | llm-inference | ~100K+ | Run LLMs locally — production-grade local inference, privacy-focused | 2026-03-31 |
 | open-webui/open-webui | ai-ui | ~60K+ | Polished self-hosted UI for Ollama + remote LLMs; full product experience | 2026-03-31 |
 | biomejs/biome | dev-tools | ~20K+ | Rust-based all-in-one linter + formatter replacing ESLint + Prettier; 100x faster | 2026-03-31 |
@@ -27,3 +26,8 @@ Track repos that look interesting but haven't been fully evaluated yet.
 | aditya-nadkarni/spongecake | ai-agents | ~unknown | SDK for OpenAI computer-use agents against virtual desktop via Docker | 2026-03-31 |
 | gitleaks/betterleaks | security | ~unknown | Secrets scanner using BPE Token Efficiency (98.6% recall vs 70.4% entropy) | 2026-03-31 |
 | yohannesgk/blacksmith | security | ~unknown | Multi-agent AI penetration testing framework (recon, scan, vuln, exploit agents) | 2026-03-31 |
+| sherlock-project/sherlock | security | ~79.9K | OSINT username hunter across 400+ social networks; production-grade, CLI + Docker | 2026-04-06 |
+| google-research/timesfm | ai-ml | ~15K | Google's pretrained time-series foundation model for zero-shot forecasting | 2026-04-06 |
+| badlogic/pi-mono | ai-agents | ~32.1K | AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries | 2026-04-06 |
+| vas3k/TaxHacker | financial | ~4.7K | Self-hosted AI accounting: LLM analyzer for receipts, invoices, transactions | 2026-04-06 |
+| NousResearch/hermes-agent | ai-agents | ~26.97K | General-purpose AI agent framework from NousResearch (star update: was 19.9K on 2026-03-31) | 2026-04-06 |

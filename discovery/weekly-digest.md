@@ -1,3 +1,77 @@
+# Weekly Discovery Digest — 2026-04-06
+
+## Summary
+Active discovery week. GitHub trending showed strong growth in AI agent frameworks and developer tooling. Three new profiles created, five new watchlist entries added (one updated), and two existing profiles enriched with updated star counts and release data.
+
+---
+
+## New Profiles Created (3)
+
+### 1. `block/goose` → `solutions/ai-agents/block--goose.md`
+- **Stars:** 37.5K | **License:** Apache-2.0 | **Language:** Rust + TypeScript
+- **Why:** On-machine autonomous AI agent from Block (Square). Provider-agnostic, MCP-extensible, latest release v1.29.1 (2026-04-03). Strong production story with enterprise backing.
+- **Category:** ai-agents
+
+### 2. `roboflow/supervision` → `solutions/computer-vision/roboflow--supervision.md`
+- **Stars:** 37.7K | **License:** MIT | **Language:** Python
+- **Why:** The de-facto standard post-processing toolkit for computer vision pipelines. Model-agnostic, works with YOLO/SAM/Transformers, active commits on 2026-04-06. High business relevance for surveillance, retail, sports analytics.
+- **Category:** computer-vision
+
+### 3. `siddharthvaddem/openscreen` → `solutions/dev-tools/siddharthvaddem--openscreen.md`
+- **Stars:** 23.2K | **License:** MIT | **Language:** TypeScript
+- **Why:** Viral this week (+12.7K stars in 7 days). Free Screen Studio alternative — product demo and screencast tool with cinematic effects. Useful for SaaS marketing teams and developer content. Latest v1.3.0 (2026-04-02).
+- **Category:** dev-tools
+- **Watch:** Solo maintainer — monitor for abandonment
+
+---
+
+## Watchlist Updates (5 new, 1 updated)
+
+| Repo | Stars | Note |
+|------|-------|------|
+| sherlock-project/sherlock | ~79.9K | OSINT username hunter across 400+ networks — high stars, production security use |
+| google-research/timesfm | ~15K | Google's time-series foundation model for zero-shot forecasting — financial/IoT applicability |
+| badlogic/pi-mono | ~32.1K | AI agent toolkit (CLI + unified LLM API + TUI) — trending this week |
+| vas3k/TaxHacker | ~4.7K | Self-hosted AI accounting app — below 5K stars threshold but strong concept |
+| NousResearch/hermes-agent | ~26.97K | **Updated** — was 19.9K on 2026-03-31; now at 26.97K (+7K stars in one week) |
+
+---
+
+## Profiles Enriched (2)
+
+### `n8n-io/n8n`
+- Stars: 105K → **183K** (major growth — nearly doubled)
+- Latest release: v2.14.2 (2026-03-26)
+- New: 900+ pre-built workflow templates now available
+
+### `twentyhq/twenty`
+- Stars: 41.9K → **43.6K**
+- Latest release: v1.20.0 (2026-03-31) — active shipping cadence confirmed
+
+---
+
+## Notable Trends
+
+1. **AI agent tooling fracturing by runtime** — Goose (Rust, on-machine), pi-mono (TypeScript, CLI+TUI), and Hermes (Python) each targeting different developer profiles.
+2. **Computer vision productization** — Supervision's 37.7K stars signals the CV pipeline tooling layer is a real product surface.
+3. **n8n's explosive growth** — 105K → 183K stars; likely a viral event. Worth tracking conversion to new deployments.
+4. **Demo/content tooling going open-source** — OpenScreen's viral week (+12.7K stars) signals strong Loom/Screen Studio pricing pain.
+5. **Sherlock (79.9K) was overlooked** — Mature OSINT tool with very high stars not previously tracked; security tooling deserves more coverage.
+
+---
+
+## Repos Skipped This Week
+- `luongnv89/claude-howto` — Educational guide, not a deployable solution
+- `asgeirtj/system_prompts_leaks` — Not a production tool
+- `Blaizzy/mlx-vlm` — Only 4K stars, below threshold
+- `google-ai-edge/gallery` — Kotlin showcase app, not a deployable backend
+
+## Errors / Issues
+- HN Algolia API returned 403 again — sourced via web search instead
+- Several web pages returned 403 (shareuhack.com, bytebytego.com, dev.to) — GitHub trending page fetched directly as fallback
+
+---
+
 # Weekly Discovery Digest — 2026-03-31
 
 ## Summary

@@ -3,10 +3,10 @@ name: "n8n"
 repo: "n8n-io/n8n"
 url: "https://github.com/n8n-io/n8n"
 category: "workflow-automation"
-stars: 105000
+stars: 183000
 license: "Sustainable Use License v1.0 (source-available; not fully OSI-approved)"
 language: "TypeScript"
-last_profiled: "2026-03-31"
+last_profiled: "2026-04-06"
 production_ready: true
 security_score: 7
 deploy_complexity: "easy"
@@ -28,6 +28,7 @@ Self-hostable workflow automation platform with 400+ native integrations and nat
 - Used by teams at Shopify, Cisco, Siemens (documented case studies)
 - n8n Cloud (managed) available for teams wanting zero infra
 - One of the top 10 most-starred TypeScript repos on GitHub
+- **[2026-04-06 update]** 183K stars (up from 105K in March 2026); latest release v2.14.2 (2026-03-26); 900+ pre-built workflow templates now available
 
 ## Tech Stack
 - TypeScript + Node.js backend

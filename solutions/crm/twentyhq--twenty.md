@@ -3,10 +3,10 @@ name: "Twenty"
 repo: "twentyhq/twenty"
 url: "https://github.com/twentyhq/twenty"
 category: "crm"
-stars: 41944
+stars: 43600
 license: "AGPL-3.0"
 language: "TypeScript"
-last_profiled: "2026-03-28"
+last_profiled: "2026-04-06"
 production_ready: true
 security_score: "N/A — not in OpenSSF Scorecard DB"
 deploy_complexity: "moderate"
@@ -23,8 +23,9 @@ Open-source CRM built as a modern alternative to Salesforce. Provides contact/co
 - **Developers** wanting a CRM they can extend via API/plugins
 
 ## Who Uses It in Production
-- 41K+ stars, strong community adoption
+- 43.6K stars (up from 41.9K on 2026-03-28), strong community adoption
 - Active Hacktoberfest participation indicates healthy contributor base
+- **[2026-04-06 update]** Latest release v1.20.0 (2026-03-31); 5.8K forks; 11,252 commits — active development velocity confirmed
 
 ## Tech Stack
 - TypeScript monorepo (Nx)
