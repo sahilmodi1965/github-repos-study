@@ -1,3 +1,87 @@
+# Weekly Discovery Digest — 2026-04-13
+
+## Summary
+- **New profiles created:** 3
+- **Repos added to watchlist:** 6
+- **Profiles enriched:** 2
+- **Searches run:** GitHub Trending (weekly), HN Show HN 100+ points, "new production-ready OSS 2026"
+
+---
+
+## New Profiles Created
+
+### 1. microsoft/markitdown — `solutions/dev-tools/microsoft--markitdown.md`
+- **Stars:** 106,000 | **License:** MIT | **Language:** Python
+- **Why:** Breakout hit — fastest-growing utility in the LLM document pipeline space. 106K stars signals mass adoption. Converts any document format (PDF, Word, Excel, images, audio) to Markdown optimized for LLM ingestion. MCP server support makes it natively useful for Claude Desktop and agentic workflows.
+- **Fit:** High — every AI pipeline that ingests documents will want this. Drop-in first step for RAG systems.
+
+### 2. HKUDS/DeepTutor — `solutions/ai-agents/HKUDS--DeepTutor.md`
+- **Stars:** 17,500 | **License:** Apache-2.0 | **Language:** Python + Next.js
+- **Why:** Agent-native personalized learning platform trending this week (+5,873 stars in 7 days). Five interaction modes (Chat, Deep Solve, Quiz, Deep Research, Math Animator) in one persistent memory workspace. Docker deploy available.
+- **Fit:** Strong for EdTech products, corporate L&D, and self-hosted AI learning tools.
+
+### 3. coleam00/Archon — `solutions/dev-tools/coleam00--Archon.md`
+- **Stars:** 17,400 | **License:** MIT | **Language:** TypeScript (Bun runtime)
+- **Why:** "First open-source harness builder for AI coding." YAML-defined workflows make AI coding deterministic. Isolated git worktrees for parallel AI agent runs — elegant solution to multi-agent conflict problems. v0.3.6 released April 12, 2026.
+- **Fit:** Strong for dev teams wanting to automate issue-fix, feature dev, and code review pipelines with any LLM.
+
+---
+
+## Repos Added to Watchlist (6 new)
+
+| Repo | Stars | Why | Date |
+|------|-------|-----|------|
+| multica-ai/multica | ~10.2K | Managed agents platform (TypeScript+Go); non-OSI license (modified Apache + commercial clause). Watch for re-licensing. | 2026-04-13 |
+| forrestchang/andrej-karpathy-skills | ~19.5K | Single CLAUDE.md distilling Karpathy's LLM coding best practices. Viral. Useful for studying agent prompting patterns. | 2026-04-13 |
+| NVIDIA/personaplex | ~9.1K | NVIDIA's LLM persona/character simulation toolkit. Vague public description — needs deeper look. | 2026-04-13 |
+| TheCraigHewitt/seomachine | ~5.9K | Specialized Claude Code workspace for SEO content generation. Skills-pattern example. | 2026-04-13 |
+| google-ai-edge/LiteRT-LM | ~3.6K | Google AI Edge C++ on-device LLM runtime. Below 5K threshold; watching for mobile/edge AI relevance. | 2026-04-13 |
+| google-ai-edge/gallery | ~20.8K | On-device ML/GenAI use case showcase app (Kotlin). High stars but demo-only; watching for production patterns. | 2026-04-13 |
+
+**Skipped (already tracked):** NousResearch/hermes-agent (watchlist since 2026-04-06)
+
+---
+
+## Profiles Enriched (2)
+
+### n8n-io/n8n (`solutions/workflow-automation/n8n-io--n8n.md`)
+- Latest stable: **v2.15.1** (Apr 10, 2026) — Google Drive pagination fix
+- Pre-release v2.16.0: Alibaba Cloud Chat Model node, VM expression engine isolate pooling, JWT token exchange, community package management via Public API
+- Stars: 183,000 (unchanged this week)
+
+### onyx-dot-app/onyx (`solutions/knowledge-management/onyx-dot-app--onyx.md`)
+- **Star surge:** 19,051 → **26,800** (+7,749 in ~2 weeks — 40% growth)
+- Latest: **v3.2.1** (Apr 10, 2026) — Redis connection pooling, NGINX routing fix, Prometheus metrics for workers, configurable file uploads
+- v3.2.0: Canvas Connector data fetching, voice assistant improvements; OpenSearch now default
+- No new CVEs identified
+
+---
+
+## Notable Trends This Week
+
+1. **Document → Markdown is the new standard preprocessing layer.** markitdown's 106K stars in under a year shows the LLM community is standardizing on Markdown as the canonical text format for AI pipelines. Every RAG system will need something like this.
+
+2. **AI coding workflow engines maturing.** Archon (17.4K) and multica (10.2K) both trending — the "make AI coding repeatable" problem is being solved in the open. YAML-defined workflows + git worktree isolation is the emerging dominant pattern.
+
+3. **EdTech AI agents are breaking through.** DeepTutor's +5,873 weekly stars signals autonomous AI tutoring is crossing from research to deployable product. Multi-modal (text, math, audio) agent platforms in education are heating up.
+
+4. **Onyx 40% growth in 2 weeks.** Likely driven by the Canvas Connector or voice assistant launch. Strong signal that enterprise knowledge management is a hot category right now.
+
+5. **Non-OSI licenses proliferating in agents.** multica uses modified Apache with commercial SaaS restrictions. Continues the trend of "source-available but not truly open" (c.f. n8n's Sustainable Use License). Keep flagging these in watchlist.
+
+---
+
+## Errors / Issues
+- OpenSSF Scorecard API (api.securityscorecards.dev) returned 403 — unable to pull automated security scores. Used estimates based on org signals and manual observations.
+- HN Algolia API returned 403 again — web search fallback used; HN coverage limited.
+- deps.dev API returned 403 — could not verify package metadata via this route.
+
+---
+
+_Generated by OSS Brain weekly discovery agent. Next run: 2026-04-20._
+
+---
+
 # Weekly Discovery Digest — 2026-04-06
 
 ## Summary

@@ -3,10 +3,10 @@ name: "Onyx"
 repo: "onyx-dot-app/onyx"
 url: "https://github.com/onyx-dot-app/onyx"
 category: "knowledge-management"
-stars: 19051
+stars: 26800
 license: "MIT"
 language: "Python"
-last_profiled: "2026-03-28"
+last_profiled: "2026-04-13"
 production_ready: true
 security_score: "N/A — not in OpenSSF Scorecard DB"
 deploy_complexity: "moderate"
@@ -72,6 +72,10 @@ Self-hosted AI chat platform that connects to 48+ knowledge sources (Slack, Goog
 - **Critical note:** Permission sync (who sees what) is ENTERPRISE-ONLY. On free tier, all indexed content is visible to all users.
 
 ## Latest Release & Changes
+- **[2026-04-13 update]** Stars jumped to 26.8K (was 19K on 2026-03-28); OpenSearch now default; Canvas Connector data fetching added; voice assistant improvements; encryption key rotation utilities
+- **v3.2.1** (Apr 10, 2026) — perm sync start time optimization, NGINX routing fix, Celery Redis connection pooling, configurable file upload sizes, Prometheus metrics for workers
+- **v3.2.0** (Apr 9, 2026) — Canvas Connector, refactored admin UI, enhanced monitoring, voice assistant updates
+- **v3.1.4** (Apr 10, 2026) — tool call argument streaming, encryption key rotation, OpenSearch enabled by default, Storybook added
 - **v3.0.5** (Mar 25, 2026) — completed Vespa-to-OpenSearch migration (FOSS Elasticsearch fork, smaller memory, equal/better search)
 - **v2.12.0**: Brave web search provider, auto-summarization of long conversations
 - **v2.11.0**: User MCP actions, custom chat backgrounds, macOS desktop app with code signing
