@@ -3,10 +3,10 @@ name: "MarkItDown"
 repo: "microsoft/markitdown"
 url: "https://github.com/microsoft/markitdown"
 category: "dev-tools"
-stars: 106000
+stars: 113000
 license: "MIT"
 language: "Python"
-last_profiled: "2026-04-13"
+last_profiled: "2026-04-20"
 production_ready: true
 security_score: 7  # Microsoft-backed, active maintenance, no known CVEs
 deploy_complexity: "easy"
@@ -25,13 +25,14 @@ MarkItDown is a lightweight Python utility that converts virtually any document 
 ## Who Uses It in Production
 - Microsoft internal tooling (built by Microsoft AutoGen team)
 - Widely adopted in the AutoGen and LangChain community for document preprocessing
-- 106K+ GitHub stars indicates broad adoption across AI engineering teams
+- 113K+ GitHub stars indicates broad adoption across AI engineering teams
 
 ## Tech Stack
 - Python 3.10+
 - Pluggable architecture: `mammoth` (DOCX), `pdfminer.six` (PDF), `pillow` + OCR (images), `pydub`/`speech_recognition` (audio)
 - Optional Azure Document Intelligence integration for high-fidelity PDF extraction
 - MCP server via `mcp` package for Claude Desktop integration
+- New `markitdown-ocr` plugin: LLM vision-powered image text extraction (no extra ML libs needed)
 
 ## How to Deploy
 1. `pip install markitdown` (bare install — common formats only)
@@ -81,3 +82,4 @@ MarkItDown is a lightweight Python utility that converts virtually any document 
 - Docs: https://github.com/microsoft/markitdown#readme
 - Discord/Community: Microsoft AutoGen Discord
 - Blog/Changelog: https://github.com/microsoft/markitdown/releases
+- **Enriched 2026-04-20:** 113K stars (was 106K); new `markitdown-ocr` plugin added; latest release v0.1.5 (2026-02-20)
