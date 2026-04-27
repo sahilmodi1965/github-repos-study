@@ -3,10 +3,10 @@ name: "n8n"
 repo: "n8n-io/n8n"
 url: "https://github.com/n8n-io/n8n"
 category: "workflow-automation"
-stars: 183000
+stars: 186000
 license: "Sustainable Use License v1.0 (source-available; not fully OSI-approved)"
 language: "TypeScript"
-last_profiled: "2026-04-13"
+last_profiled: "2026-04-27"
 production_ready: true
 security_score: 7
 deploy_complexity: "easy"
@@ -30,6 +30,7 @@ Self-hostable workflow automation platform with 400+ native integrations and nat
 - One of the top 10 most-starred TypeScript repos on GitHub
 - **[2026-04-06 update]** 183K stars (up from 105K in March 2026); latest release v2.14.2 (2026-03-26); 900+ pre-built workflow templates now available
 - **[2026-04-13 update]** Latest stable: v2.15.1 (Apr 10, 2026) — fixed Google Drive pagination bug; v2.16.0 pre-release adds Alibaba Cloud Chat Model node, VM expression engine isolate pooling, JWT token exchange, community package management via Public API
+- **[2026-04-27 update]** 186K stars (was 183K); new stable release on April 27, 2026; platform now emphasized as "AI-native" with LangChain-based agent workflows; 900+ workflow templates available
 
 ## Tech Stack
 - TypeScript + Node.js backend

@@ -1,3 +1,80 @@
+# Weekly Discovery Digest — 2026-04-27
+
+## Summary
+RAG tooling dominated this week's GitHub trending, with two RAG frameworks cresting 18K+ stars alongside a Bloomberg-terminal alternative at 15.9K. Discovery sources: GitHub Trending (weekly), HN Show HN (via web search — Algolia 403 again), and general production-ready OSS search. Three full profiles created, nine repos added to watchlist. Platform-level tools (Dify at 139K, RAGFlow at 79K) underline that the "AI knowledge infrastructure" layer is now the fastest-growing open-source category.
+
+---
+
+## New Profiles Created (3)
+
+| Profile | Category | Stars | Why Now |
+|---------|----------|-------|---------|
+| `infiniflow/ragflow` | knowledge-management | 79.1K | Apache-2.0, 41 releases, April 2026 stable, enterprise RAG with grounded citations — highest-star RAG server not yet in brain |
+| `Fincept-Corporation/FinceptTerminal` | financial | 15.9K | AGPL-3.0, 26 releases, v4.0.2 Apr 24 2026, Bloomberg-alternative with 37 AI trading agents — +10K stars this week |
+| `HKUDS/RAG-Anything` | knowledge-management | 18.9K | MIT, 17 releases, v1.2.10 Mar 2026, multimodal RAG library (text+images+tables+equations) from HKUDS group |
+
+---
+
+## Repos Added to Watchlist (9)
+
+| Repo | Stars | Notes |
+|------|-------|-------|
+| mattpocock/skills | ~26.3K | Agent skills from Matt Pocock; MIT; **no releases yet** — revisit once releases land |
+| langgenius/dify | ~139K | Massive LLM app platform; **custom non-OSI license** (Apache 2.0 + extra conditions); watch for re-licensing |
+| zilliztech/claude-context | ~9.7K | Code search MCP for Claude Code; TypeScript; strong fit for AI coding workflows |
+| mksglu/context-mode | ~10.5K | Context window optimizer for 14 AI coding platforms; TypeScript; trending this week |
+| Alishahryar1/free-claude-code | ~15K | Free Claude Code proxy; Python; **verify legitimacy before use** — unclear ToS compliance |
+| Anil-matcha/Open-Generative-AI | ~9.1K | Open AI image/video studio, 200+ models; JavaScript; evaluate content-policy implications |
+| thunderbird/thunderbolt | ~4.2K | Local-first AI chat, own your data; TypeScript; below 5K threshold, revisit |
+| Tracer-Cloud/opensre | ~3.5K | Open-source AI SRE agent toolkit; Python; below 5K threshold, revisit |
+| infiniflow/ragflow | — | **Profiled this run** — removed from watchlist candidates |
+
+---
+
+## Profiles Enriched (2)
+
+| Profile | Changes |
+|---------|---------|
+| `block/goose` | Stars 42.8K → 43.4K; v1.32.0 released April 23, 2026; AAIF/Linux Foundation governance confirmed |
+| `n8n-io/n8n` | Stars 183K → 186K; new stable release April 27, 2026; now emphasizing "AI-native" LangChain agent workflows; 900+ templates |
+
+---
+
+## Star Bumps on Existing Watchlist
+
+| Repo | Old Stars | New Stars | Notes |
+|------|-----------|-----------|-------|
+| forrestchang/andrej-karpathy-skills | ~63.8K | ~92.3K | Still climbing; +29.9K this week alone — single-file viral effect |
+| multica-ai/multica | ~17.2K | ~21.7K | Steady growth; license still non-OSI |
+| lsdefine/GenericAgent | ~4.7K | ~7.6K | Now at 7.6K — approaching profile threshold |
+
+---
+
+## Notable Trends
+
+1. **RAG is the new middleware.** RAGFlow (79K), RAG-Anything (18.9K), and HKUDS/DeepTutor (already profiled) all from the same research group or adjacent ecosystem. RAG infrastructure is now a distinct product category with multiple production-grade open-source options. Dify (139K) adds the platform layer on top.
+
+2. **Dify needs a profile — license is the blocker.** 139K stars, 161 releases, TypeScript+Python, Docker-deployable. Only gap: custom non-Apache license restricts SaaS reselling. Flag for Sahil: if deploying internally, the Dify license is likely fine — re-evaluate next run with a legal read.
+
+3. **Finance UI tooling maturing.** FinceptTerminal (15.9K) + OpenBB (in wider ecosystem) show demand for self-hosted Bloomberg alternatives is real. Sahil's `financial/` category now has 5 profiles — consider a sub-category for "trading terminals" vs "financial agents."
+
+4. **Claude Code ecosystem still ballooning.** `forrestchang/andrej-karpathy-skills` added 30K stars in one week (a single CLAUDE.md file). `mattpocock/skills` at 26.3K. This is a content/config category, not software — consider a separate `claude-code-configs/` watchlist column.
+
+5. **MCP tooling entering the mainstream.** `zilliztech/claude-context` (9.7K) and `mksglu/context-mode` (10.5K) both saw this-week trending on the strength of "make your codebase the LLM's context" use case. MCP-first developer tools are a new sub-category.
+
+---
+
+## Errors / Issues
+- HN Algolia API returned 403 — web search fallback used again; HN coverage limited
+- HN item pages returned 403 — could not verify individual post upvote counts directly
+- OpenSSF Scorecard API not queried this run (403 in prior runs); security scores are estimates based on license, release cadence, and org signals
+
+---
+
+_Generated by OSS Brain weekly discovery agent. Next run: 2026-05-04._
+
+---
+
 # Weekly Discovery Digest — 2026-04-20
 
 ## Summary

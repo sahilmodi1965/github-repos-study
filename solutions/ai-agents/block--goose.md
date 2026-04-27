@@ -3,10 +3,10 @@ name: "Goose"
 repo: "block/goose"
 url: "https://github.com/block/goose"
 category: "ai-agents"
-stars: 42800
+stars: 43400
 license: "Apache-2.0"
 language: "Rust"
-last_profiled: "2026-04-20"
+last_profiled: "2026-04-27"
 production_ready: true
 security_score: 8
 deploy_complexity: "easy"
@@ -83,3 +83,4 @@ On-machine AI agent that autonomously executes engineering tasks — building pr
 - Discord: https://discord.gg/block-goose
 - Blog: https://block.github.io/goose/blog
 - **Enriched 2026-04-20:** v1.31.1 released; project donated to Linux Foundation AAIF; 42.8K stars (was 37.5K)
+- **Enriched 2026-04-27:** v1.32.0 released April 23, 2026; 43.4K stars (was 42.8K); repo URL still at block/goose but governance fully under AAIF/Linux Foundation

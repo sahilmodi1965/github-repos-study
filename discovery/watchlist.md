@@ -44,3 +44,11 @@ Track repos that look interesting but haven't been fully evaluated yet.
 | BasedHardware/omi | ai-agents | ~11.5K | AI wearable that sees your screen and listens to conversations; open-source hardware+software | 2026-04-20 |
 | OpenBMB/VoxCPM | ai-voice | ~15K | Tokenizer-free TTS for multilingual speech generation and voice cloning; Python | 2026-04-20 |
 | lsdefine/GenericAgent | ai-agents | ~4.7K | Self-evolving agent achieving full system control with reduced token consumption | 2026-04-20 |
+| mattpocock/skills | ai-agents | ~26.3K | Agent skills for real engineers from Matt Pocock's .claude directory; MIT; no releases yet | 2026-04-27 |
+| langgenius/dify | workflow-automation | ~139K | Production-ready LLM app platform: visual workflow builder, RAG, 100+ LLM providers; custom non-OSI license | 2026-04-27 |
+| zilliztech/claude-context | dev-tools | ~9.7K | Code search MCP server for Claude Code — makes entire codebase the context for coding agents; TypeScript | 2026-04-27 |
+| mksglu/context-mode | ai-agents | ~10.5K | Context window optimization layer for AI coding agents across 14 platforms; TypeScript | 2026-04-27 |
+| Tracer-Cloud/opensre | devops | ~3.5K | Open-source AI SRE agent toolkit for the AI era; build custom SRE agents; Python | 2026-04-27 |
+| thunderbird/thunderbolt | ai-ui | ~4.2K | Local-first AI chat: choose your models, own your data, eliminate vendor lock-in; TypeScript | 2026-04-27 |
+| Alishahryar1/free-claude-code | ai-agents | ~15K | Proxy gateway to use Claude Code for free via terminal/VSCode/Discord; Python — verify legitimacy before use | 2026-04-27 |
+| Anil-matcha/Open-Generative-AI | media | ~9.1K | Open-source AI image and video generation studio, 200+ models, no content filters; JavaScript | 2026-04-27 |
